@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --orange: #D5966C;
+    --noir: #151515;
+    --grey: #444444;
+    --big-shoulders: 'Big Shoulders', sans-serif;
+    --outfit: 'Outfit', sans-serif;
+}
+
+
+/* HOMEPAGE HEADER */
+.btn-home{
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+    width: max-content;
+}
+
+.btn-home:hover .btn-text-container{
+    background-color: var(--orange);
+}
+
+.btn-home:hover .arrow-container{
+    background-color: var(--noir);
+}
+
+.btn-home:active .btn-text-container{
+    background-color: var(--orange);
+}
+
+.btn-home:active .arrow-container{
+    background-color: var(--noir);
+}
+
+.home-header-container{
+    margin: 32px 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.home-title{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    line-height: 56px;
+    font-size: 3.75rem;
+}
+
+.home-body{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 28px;
+}
+
+/* GALLERY GRID */
+.gallery{
+    margin: 120px 16px;
+    display: grid;
+    gap: 16px;
+}
+
+.info-white-bg{
+    margin: 16px 0 9px 0;
+}
+
+.title-white-bg{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    padding-bottom: 21px;
+}
+
+.body-white-bg{
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.info-black-bg{
+    background-color: var(--noir);
+    color: white;
+    padding: 48px 24px;
+}
+
+.title-black-bg{
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 67px;
+    padding-bottom: 21px;
+}
+
+.body-black-bg{
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+
+/* FOOTER HOME */
+.home-footer{
+    color: white;
+    background-color: var(--noir);
+    
+}

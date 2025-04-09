@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --orange: #D5966C;
+    --noir: #151515;
+    --grey: #444444;
+    --big-shoulders: 'Big Shoulders', sans-serif;
+    --outfit: 'Outfit', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-shoulders-font{
+    font-family: var(--big-shoulders);
+}
+
+.outfit-font{
+    font-family: var(--outfit);
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* HEADER - LOCATION PAGE */
+.hero-image{
+    max-width: 100%;
+    display: block;
+}
+
+.map-image{
+    max-width: 100%;
+    display: block;
+}
+
+.btn{
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+}
+
+.btn-text-container{
+    background-color: var(--noir);
+    font-weight: 500;
+    border: none;
+    color: white;
+    padding: 24px 35px 24px 32px;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 3.64px;
+    grid-column: span 3;
+}
+
+.arrow-container{
+    background-color: #D5966C;
+    padding: 24px;
+}
+
+.btn:hover .btn-text-container{
+    background-color: var(--orange);
+}
+
+.btn:hover .arrow-container{
+    background-color: var(--noir);
+}
+
+.btn:active .btn-text-container{
+    background-color: var(--orange);
+}
+
+.btn:active .arrow-container{
+    background-color: var(--noir);
+}
+
+.header-location{
+    position: relative;
+}
+
+/* LOCATION DETAILS SECTION */
+.location-details-container{
+    color: white;
+    background-color: var(--noir);
+    padding: 48px 16px 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.location-details-header{
+    font-size: 3.125rem;
+    text-transform: uppercase;
+}
+
+.location-subtitle{
+    text-transform: uppercase;
+    color: var(--orange);
+    font-size: 2rem;
+}
+
+.location-body{
+    font-weight: 200;
+    font-size: 1.125rem;
+}
+
+/* LOCATION FOOTER */
+.location-footer{
+    color: var(--noir);
+    background-color: var(--orange);
+    padding: 48px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    align-items: flex-start;
+}
+
+.footer-body{
+    font-weight: 350;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    width: 20px;
+}
+
+.logo-black{
+    width: 110.05px;
+}
+
