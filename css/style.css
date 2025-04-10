@@ -65,6 +65,9 @@
 .arrow-container{
     background-color: #D5966C;
     padding: 24px;
+}
+
+.arrow-container img{
     display: block;
 }
 

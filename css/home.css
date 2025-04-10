@@ -16,7 +16,6 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     cursor: pointer;
-    transition: all 0.8s ease-in;
     width: max-content;
 }
 
@@ -106,7 +105,7 @@
 .title-black-bg{
     font-size: 46px;
     font-weight: 900;
-    line-height: 67px;
+    line-height: 49px;
     padding-bottom: 21px;
 }
 
