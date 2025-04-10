@@ -265,8 +265,19 @@
         line-height: 60px;
     }
 
+    .image-1{
+        height: 400px;
+    }
+
+    .image-2{
+        height: 720px;
+        object-fit: cover;
+    }
+
     .image-3{
         display: block;
+        height: 313px;
+        object-fit: cover;
     }   
     
     .title-black-bg{
