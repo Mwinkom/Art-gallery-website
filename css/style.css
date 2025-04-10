@@ -49,6 +49,7 @@
     cursor: pointer;
 }
 
+
 .btn-text-container{
     background-color: var(--noir);
     font-weight: 500;
@@ -65,6 +66,18 @@
 .arrow-container{
     background-color: #D5966C;
     padding: 24px;
+}
+
+.arrow-right-container{
+    background-image: url('../assets/icon-arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-left-container{
+    background-image: url('../assets/icon-arrow-left.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .arrow-container img{
