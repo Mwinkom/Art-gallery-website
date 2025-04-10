@@ -7,11 +7,14 @@
         display: grid;
         grid-template-columns: 40% 60%;
         margin-bottom: 11px;
+        gap: 11px;
+        overflow-x: hidden;
     }    
 
     .info-white-bg{
         margin: 36px 0 65px 0;
         grid-row: 1/2;
+        padding-right: 50px;
     }
 
     .title-white-bg{
@@ -49,21 +52,24 @@
     .gallery2{
         display: grid;
         grid-template-columns: repeat(2, 1fr) ;
-        gap: 11px;
+        gap: 11px;  
+
     }
+
 
     .sub-gallery{
         display: flex;
         flex-direction: column;
+        gap: 9px;
+        }
+
+    .image-2{
+        height: 100%;
     }
 
-    image-2{
-        height: 720px;
-    }
 
-
-    image-3{
-        height: 313px;
+    .image-3{
+        height: auto;
     }
 
 }
@@ -196,6 +202,10 @@
 }
 
 @media (min-width: 1024px){
+    .gallery{
+        margin: 180px 165px;
+    }
+
     .btn{
         left: 156px;
     }
@@ -229,5 +239,56 @@
         padding: 80px 165px;
     }
 
+    .gallery1{
+        display: grid;
+        margin-bottom: 30px;
+        gap: 30px;
+        align-items: center;
+    } 
+
+    .gallery2{
+        gap: 30px;  
+
+    }
+
+    .sub-gallery{
+        gap: 30px;
+        }
+
+    .info-white-bg{
+        margin: 60px 0;
+        padding-right: 70px;
+    }
+
+    .title-white-bg{
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .image-3{
+        display: block;
+    }   
     
+    .title-black-bg{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .body-white-bg{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .body-black-bg{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .info-black-bg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 65px 48px;
+        height: 377px;
+    }
 }
