@@ -47,7 +47,6 @@
     left:0px;
     z-index: 1;
     cursor: pointer;
-    transition: all 0.8s ease-in;
 }
 
 .btn-text-container{
@@ -60,11 +59,13 @@
     font-size: 1.25rem;
     letter-spacing: 3.64px;
     grid-column: span 3;
+    display: block;
 }
 
 .arrow-container{
     background-color: #D5966C;
     padding: 24px;
+    display: block;
 }
 
 .btn:hover .btn-text-container{
