@@ -47,6 +47,7 @@
     left:0px;
     z-index: 1;
     cursor: pointer;
+    height: 72px;
 }
 
 
@@ -66,18 +67,22 @@
 .arrow-container{
     background-color: #D5966C;
     padding: 24px;
+    width: 100%;
+    height: auto;
 }
 
 .arrow-right-container{
     background-image: url('../assets/icon-arrow-right.svg');
     background-repeat: no-repeat;
     background-position: center;
+    display: block;
 }
 
 .arrow-left-container{
     background-image: url('../assets/icon-arrow-left.svg');
     background-repeat: no-repeat;
     background-position: center;
+    display: block;
 }
 
 .arrow-container img{
