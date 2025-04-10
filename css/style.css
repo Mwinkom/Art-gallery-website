@@ -68,7 +68,7 @@
 }
 
 .arrow-container img{
-    display: block;
+    vertical-align: middle;
 }
 
 .btn:hover .btn-text-container{
