@@ -60,7 +60,7 @@
     .sub-gallery{
         display: flex;
         flex-direction: column;
-        gap: 9px;
+        gap: 11px;
         }
 
     .image-2{
@@ -70,6 +70,7 @@
 
     .image-3{
         height: auto;
+        display: block;
     }
 
 }
@@ -298,6 +299,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0 49px; 
         height: 377px;
     }
 }
