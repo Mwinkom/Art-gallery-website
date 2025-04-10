@@ -47,7 +47,6 @@
     left:0px;
     z-index: 1;
     cursor: pointer;
-    height: 72px;
 }
 
 
@@ -68,7 +67,6 @@
     background-color: #D5966C;
     padding: 24px;
     width: 100%;
-    height: auto;
 }
 
 .arrow-right-container{
@@ -76,6 +74,8 @@
     background-repeat: no-repeat;
     background-position: center;
     display: block;
+    height: 72px;
+    width: 100%;
 }
 
 .arrow-left-container{
@@ -83,6 +83,8 @@
     background-repeat: no-repeat;
     background-position: center;
     display: block;
+    height: 72px;
+    width: 100%;
 }
 
 .arrow-container img{
